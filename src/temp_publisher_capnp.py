@@ -9,7 +9,7 @@ from tempfile import SpooledTemporaryFile
 
 load_dotenv()
 capnp.remove_import_hook()
-ts_data_capnp = capnp.load('proto/ts_data.capnp')
+ts_data_capnp = capnp.load('../proto/ts_data.capnp')
 
 print("MQTT_TOPIC", os.getenv("MQTT_TOPIC"))
 script_start_time = time.time()
