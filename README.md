@@ -1,4 +1,6 @@
 ## mqtt-publisher-pc
+
+ Program do odbioru danych telemetrycznych 
  
 Install:
 ```shell
