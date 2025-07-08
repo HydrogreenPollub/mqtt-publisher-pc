@@ -28,13 +28,13 @@ Install (make sure you've copied `.env` file from Wiki), open powershell as admi
 ```shell
 set-executionpolicy RemoteSigned
 python -m venv .venv
-.\venv\Scripts\Activate.ps
+.\.venv\Scripts\Activate.ps
 pip install -r requirements.txt
 ```
 
 Prepare:
 ```shell
-.\venv\Scripts\Activate.ps
+.\.venv\Scripts\Activate.ps
 ```
 
 Execute:
