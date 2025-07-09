@@ -3,7 +3,9 @@
 Recevice telemetry data from LoRa and pass them to Linux server via MQTT protocol.
 
 ### Linux usage
- 
+
+__Copy `.env` file from Hydrogreen Wiki.__
+
 Install (make sure you've copied `.env` file from Wiki):
 ```shell
 python3 -m venv .venv
@@ -24,7 +26,11 @@ python3 src/pc_publisher.py
 
 ### Windows usage
 
-Install (make sure you've copied `.env` file from Wiki), open powershell as administrator:
+__Copy `.env` file from Hydrogreen Wiki.__
+
+Install python 3.11 from [here](https://www.python.org/downloads/release/python-3110/). 
+
+Install (use `powershell`):
 ```shell
 set-executionpolicy RemoteSigned
 python -m venv .venv
