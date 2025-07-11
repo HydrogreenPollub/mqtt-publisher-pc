@@ -29,6 +29,7 @@ python3 src/pc_publisher.py
 __Copy `.env` file from Hydrogreen Wiki.__
 
 Install python 3.11 from [here](https://www.python.org/downloads/release/python-3110/). 
+(Check Add path)
 
 Install (use `powershell`):
 ```shell
