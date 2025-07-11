@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 Prepare:
 ```shell
-.\.venv\Scripts\Activate.ps
+.\.venv\Scripts\Activate.ps1
 ```
 
 Execute:
